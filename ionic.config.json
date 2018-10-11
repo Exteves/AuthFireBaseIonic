@@ -1,0 +1,7 @@
+{
+  "name": "wordPush",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
