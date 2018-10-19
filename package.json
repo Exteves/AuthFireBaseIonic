@@ -21,6 +21,7 @@
     "@angular/platform-browser": "5.2.11",
     "@angular/platform-browser-dynamic": "5.2.11",
     "@ionic-native/core": "~4.15.0",
+    "@ionic-native/google-plus": "^4.16.0",
     "@ionic-native/splash-screen": "~4.15.0",
     "@ionic-native/status-bar": "~4.15.0",
     "@ionic/storage": "2.2.0",
@@ -35,5 +36,13 @@
     "@ionic/lab": "1.0.11",
     "typescript": "~2.6.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-googleplus": {
+        "REVERSED_CLIENT_ID": "com.googleusercontent.apps.928922351725-dn5362945v6euojb07g8k88a5hn7mek6",
+        "WEB_APPLICATION_CLIENT_ID": "928922351725-dn5362945v6euojb07g8k88a5hn7mek6.apps.googleusercontent.com"
+      }
+    }
+  }
 }
