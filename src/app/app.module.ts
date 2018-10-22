@@ -12,6 +12,7 @@ import { FIREBASE_CONFIG } from './app.firebase.config';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ComponentsModule } from '../components/components.module';
+import { IntroductionInfosPageModule } from '../pages/introduction-infos/introduction-infos.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ComponentsModule } from '../components/components.module';
     IonicModule.forRoot(MyApp),
     AngularFireModule.initializeApp(FIREBASE_CONFIG),
     AngularFireAuthModule,
-    ComponentsModule
+    ComponentsModule,
+    IntroductionInfosPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
